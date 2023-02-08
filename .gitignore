@@ -78,8 +78,10 @@ fabric.properties
 
 venv/
 
-.env
+pragmatic/.env
 
 db.sqlite3
 
-.idea
+.idea/
+
+__pycache__/
