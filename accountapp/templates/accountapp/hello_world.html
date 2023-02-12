@@ -6,6 +6,15 @@
         <h1>
             testing
         </h1>
+
+        <form action="/account/hello_world/" method="post">
+            {% csrf_token %} <!-- 장고에서 제공하는 보안 기능 중 하나 -->
+            <input type="submit" class="btn btn-primary" value="POST">
+        </form>
+
+        <h1>
+            {{ text }}
+        </h1>
     </div>
 
 {% endblock %}
