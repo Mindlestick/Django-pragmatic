@@ -6,7 +6,7 @@
             <span>nav1</span>
             <span>nav2</span>
             <span>nav3</span>
-            {% if not user.is_authenticated %}
+            {% if not user.is_authenticated %} <!-- 로그인 했는지 -->
             <a href="{% url 'accountapp:login' %}?next={{ request.path }}">
                 <span>login</span>
             </a>
