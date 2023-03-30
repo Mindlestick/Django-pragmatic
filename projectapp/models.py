@@ -9,3 +9,6 @@ class Project(models.Model):
 
     created_at = models.DateTimeField(auto_now=True) #언제 만들어졌는지
 
+    # 게시물 작성 카테고리의 프로젝트명 설정
+    def __str__(self):
+        return f'{self.pk} : {self.title}' # 출력형식 {게시판 번호 : 게시판 이름}
