@@ -14,7 +14,7 @@
         </a>
         {% if not user.is_authenticated %} <!-- 로그인 했는지 -->
         <a href="{% url 'accountapp:login' %}?next={{ request.path }}" class="pragmatic_header_nav">
-            <span>Subscription</span>
+            <span>login</span>
         </a>
         <a href="{% url 'accountapp:create' %}" class="pragmatic_header_nav">
             <span>SignUp</span>
