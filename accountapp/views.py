@@ -20,7 +20,7 @@ class AccountCreateView(CreateView):
     # 1. 무슨 모델을 사용할 것인지?
     model = User
     form_class = UserCreationForm
-    success_url = reverse_lazy('accountapp:login')  # 계정 만드는 데 성공했다면/ 클래스에서는 reverse_lazy 사용 함수에서는 reverse 사용
+    success_url = reverse_lazy('home')  # 계정 만드는 데 성공했다면/ 클래스에서는 reverse_lazy 사용 함수에서는 reverse 사용
     template_name = 'accountapp/create.html'
 
 
@@ -41,7 +41,7 @@ class AccountUpdateView(UpdateView):
     model = User
     context_object_name = 'target_user'
     form_class = AccountUpdateForm
-    success_url = reverse_lazy('accountapp:detail')  # 계정 만드는 데 성공했다면/ 클래스에서는 reverse_lazy 사용 함수에서는 reverse 사용
+    success_url = reverse_lazy('home')  # 계정 만드는 데 성공했다면/ 클래스에서는 reverse_lazy 사용 함수에서는 reverse 사용
     template_name = 'accountapp/update.html'
 
 @method_decorator(has_ownership, 'get')
