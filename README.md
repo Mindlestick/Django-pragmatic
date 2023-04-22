@@ -13,5 +13,6 @@ Pinterest를 참고하여 만든 이미지 포스팅 사이트입니다.
 - `Python 3.9`
 - **IDE** : PyCharm
 - **Framework** : Django(4.1.6)
+- **Database** : Sqlite
 
 ## 📌 주요 기능
