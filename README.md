@@ -22,6 +22,6 @@ Pinterest를 참고하여 만든 이미지 포스팅 사이트입니다.
 - 회원 정보 수정(id는 변경 불가)
 - 회원 탈퇴
 
-#### 사용자 정보(Profile App)
+#### 사용자 정보(Profile App) - <a href="https://github.com/Mindlestick/Django-pragmatic/wiki/Profile" >상세보기 - WIKI 이동</a>
 - 프로필 편집
 - 작성한 게시글 목록 노출
