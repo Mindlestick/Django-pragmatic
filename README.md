@@ -26,3 +26,5 @@ Pinterest를 참고하여 만든 이미지 포스팅 사이트입니다.
 #### 사용자 정보(Profile App) - <a href="https://github.com/Mindlestick/Django-pragmatic/wiki/Profile" >상세보기 - WIKI 이동</a>
 - 프로필 편집
 
+
+## 🚀 배포 
