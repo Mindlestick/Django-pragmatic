@@ -16,7 +16,7 @@ Pinterest를 참고하여 만든 이미지 포스팅 사이트입니다.
 - **Database** : Sqlite
 
 ## 📌 주요 기능
-#### 계정(Account App)
+#### 계정(Account App) - <a href="https://github.com/Mindlestick/Django-pragmatic/wiki/Account" >상세보기 - WIKI 이동</a>
 - 회원 가입
 - 로그인
 - 회원 정보 수정(id는 변경 불가)
