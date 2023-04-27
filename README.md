@@ -13,7 +13,7 @@ Pinterest를 참고하여 만든 이미지 포스팅 사이트입니다.
 - `Python 3.9`
 - **IDE** : PyCharm
 - **Framework** : Django(4.1.6)
-- **Database** : Sqlite
+- **Database** : MariaDB
 
 ## 📌 주요 기능
 #### 계정(Account App) - <a href="https://github.com/Mindlestick/Django-pragmatic/wiki/Account" >상세보기 - WIKI 이동</a>
@@ -23,8 +23,10 @@ Pinterest를 참고하여 만든 이미지 포스팅 사이트입니다.
 - 회원 탈퇴
 - 작성한 게시글 목록
 
-#### 사용자 정보(Profile App) - <a href="https://github.com/Mindlestick/Django-pragmatic/wiki/Profile" >상세보기 - WIKI 이동</a>
-- 프로필 편집
+#### 프로필(Profile App) - <a href="https://github.com/Mindlestick/Django-pragmatic/wiki/Profile" >상세보기 - WIKI 이동</a>
+- 프로필 생성, 수정
 
+#### 게시글(Article App) - <a href="https://github.com/Mindlestick/Django-pragmatic/wiki/Article" >상세보기 - WIKI 이동</a>
+- 게시글 생성, 조회, 수정, 삭제
 
 ## 🚀 배포 플로우
