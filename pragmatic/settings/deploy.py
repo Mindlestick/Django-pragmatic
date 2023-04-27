@@ -7,7 +7,7 @@ env = environ.Env(
 
 # Take environment variables from .env file
 environ.Env.read_env(
-    env_file= os.path.join(BASE_DIR, '.env')
+    env_file=os.path.join(BASE_DIR, '.env')
 )
 
 # Raises Django's ImproperlyConfigured
@@ -22,7 +22,7 @@ ALLOWED_HOSTS = ['*']
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": os.path.join(BASE_DIR, "django"),
+        "NAME": "django",
         "USER": "django",
         "PASSWORD": "password1234",
         "HOST": "mariadb",
