@@ -30,3 +30,4 @@ Pinterest를 참고하여 만든 이미지 포스팅 사이트입니다.
 - 게시글 생성, 조회, 수정, 삭제
 
 ## 🚀 배포 플로우
+<img width="1019" alt="화면 캡처 2023-04-29 015658" src="https://user-images.githubusercontent.com/82570289/235208358-17af5a56-a3a0-435b-a108-f59c969b1708.png">
